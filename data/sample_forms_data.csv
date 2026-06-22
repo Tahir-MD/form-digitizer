@@ -1,0 +1,11 @@
+filename,name,date,phone,email,address,city,age,gender,diagnosis,medication,symptoms,type
+sample_form_01.jpg,Muhammad Ahmed,15/06/2026,0312-3456789,ahmed@email.com,"House #42, Street 5",Lahore,45,Male,Hypertension,Lisinopril 10mg,"Headache, Dizziness",clinic
+sample_form_02.jpg,Fatima Ali,16/06/2026,0333-9876543,fatima@email.com,"House #15, Street 8",Karachi,32,Female,Diabetes Type 2,Metformin 500mg,"Fatigue, Increased Thirst",clinic
+sample_form_03.jpg,Usman Khan,17/06/2026,0321-4567890,usman@email.com,"House #78, Street 3",Islamabad,28,Male,Asthma,Salbutamol Inhaler,"Wheezing, Shortness of Breath",clinic
+sample_form_04.jpg,Ayesha Malik,18/06/2026,0345-6789012,ayesha@email.com,"House #23, Street 12",Rawalpindi,55,Female,Tuberculosis,Rifampicin 150mg,"Cough, Weight Loss",clinic
+sample_form_05.jpg,Hassan Shah,19/06/2026,0332-7890123,hassan@email.com,"House #91, Street 7",Faisalabad,38,Male,Malaria,Chloroquine 250mg,"Fever, Chills",clinic
+sample_form_06.jpg,Zara Hussain,20/06/2026,0316-8901234,zara@email.com,"House #67, Street 15",Multan,42,Female,Typhoid,Azithromycin 500mg,"Fever, Abdominal Pain",clinic
+sample_form_07.jpg,Bilal Ahmed,21/06/2026,0346-9012345,bilal@email.com,"House #34, Street 22",Peshawar,50,Male,Dengue Fever,Paracetamol 500mg,"High Fever, Joint Pain",clinic
+sample_form_08.jpg,Sana Tariq,22/06/2026,0301-2345678,sana@email.com,"House #56, Street 9",Quetta,29,Female,Hepatitis B,Antiviral Therapy,"Fatigue, Jaundice",clinic
+sample_form_09.jpg,Omar Farooq,23/06/2026,0322-3456789,omar@email.com,"House #89, Street 4",Hyderabad,62,Male,Respiratory Infection,Ciprofloxacin 500mg,"Cough, Fever",clinic
+sample_form_10.jpg,Nadia Khan,24/06/2026,0334-5678901,nadia@email.com,"House #12, Street 18",Gujranwala,48,Female,Heart Disease,Amlodipine 5mg,"Chest Pain, Fatigue",clinic

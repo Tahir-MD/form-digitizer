@@ -1,0 +1,36 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment (DON'T UPLOAD)
+.venv/
+venv/
+ENV/
+env/
+
+# IDE (DON'T UPLOAD)
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Outputs (will be created by app)
+outputs/
+!outputs/.gitkeep
+
+# Data files (DON'T IGNORE - UPLOAD SAMPLE DATA!)
+# data/ is NOT ignored - we want to upload sample data
+EOF
