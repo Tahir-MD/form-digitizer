@@ -1,19 +1,46 @@
+import os
+import sys
+os.environ['NUMPY_EXPERIMENTAL_DTYPE_API'] = '1'
+
+try:
+    import numpy as np
+    print(f"✅ NumPy version: {np.__version__}")
+except ImportError:
+    print("⚠️ NumPy not found, installing compatible version...")
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "numpy==1.26.4"])
+    import numpy as np
+    print(f"✅ NumPy installed: {np.__version__}")
+
+# Now import OpenCV
+try:
+    import cv2
+    print(f"✅ OpenCV version: {cv2.__version__}")
+except ImportError:
+    print("📦 Installing opencv-python-headless...")
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless==4.8.1.78"])
+    import cv2
+    print(f"✅ OpenCV installed successfully!")
+
 import streamlit as st
 import pandas as pd
 import cv2
 import numpy as np
 import easyocr
 from PIL import Image, ImageEnhance, ImageFilter
-import os
+
 import re
 from datetime import datetime
 import io
-import sys
+
 import json
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from utils.preprocessor import preprocess_image
 from utils.form_extractor import extract_form_fields
+
+
 
 # Page Configuration
 st.set_page_config(
